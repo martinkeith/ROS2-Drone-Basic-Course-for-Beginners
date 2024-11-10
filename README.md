@@ -34,6 +34,18 @@ Hector Drone and  its sensors is what we are going to interface our python Nodes
   ##e.g ~/ros2_ws/
   colcon build
   ```
+* install tutlebot3 package and set bashrc
+  ```
+  sudo apt install ros-humble-turtlebot3 ros-humble-turtlebot3-bringup#basic pkg
+  sudo apt install ros-humble-turtlebot3-gazebo#sim pkg
+  sudo apt install ros-humble-turtlebot3-navigation2#nav pkg
+  
+  sudo apt install ros-humble-turtlebot3-description#describe pkg
+  echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc #set bash
+  source ~/.bashrc#source bash
+
+  
+  ```
 
 * Source your Workspace in any terminal you open to Run files from this workspace
   ```
